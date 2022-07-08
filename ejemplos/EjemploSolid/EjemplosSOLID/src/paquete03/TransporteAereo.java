@@ -3,20 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paquete04;
+package paquete03;
 
 /**
  *
  * @author reroes
  */
-public abstract class Transporte {
+public class TransporteAereo {
 
-    protected double tarifa;
+    public double tarifa;
 
-    public abstract void establecerTarifa();
+    public void establecerTarifa() {
+        tarifa = 100.00 + 0.20;
+    }
 
     public double obtenerTarifa() {
         return tarifa;
     }
-    
+
 }
