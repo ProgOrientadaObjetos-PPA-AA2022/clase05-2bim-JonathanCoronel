@@ -8,8 +8,7 @@ public class Principal3 {
 
     public static void main(String[] args) {
 
-        // Guardar los objetos d tipo Generador Peliculas en un 
-        // archivo serializado
+        // Leer los Archivos 
         String nombreArchivo = "Peliculas.data";
         LecturaArchivoSecuencial lectura
                 = new LecturaArchivoSecuencial(nombreArchivo);

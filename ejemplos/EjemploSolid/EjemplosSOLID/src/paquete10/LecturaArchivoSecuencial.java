@@ -119,8 +119,7 @@ public class LecturaArchivoSecuencial {
     public String toString() {
         String cadena = "Lista de las Peliculas\n";
         for (int i = 0; i < obtenerPeliculas().size(); i++) {
-            cadena = String.format("%s%s-%s\n", cadena,
-                    i + 1,
+            cadena = String.format("%s%s %s\n", cadena,
                     obtenerPeliculas().get(i).obtenerLlave(),
                     obtenerPeliculas().get(i).obtenerUrl());
         }
