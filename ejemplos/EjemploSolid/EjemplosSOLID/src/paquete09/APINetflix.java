@@ -10,15 +10,15 @@ package paquete09;
  * @author reroes
  */
 public class APINetflix {
-    
+
     private String apiKey;
-    
-    public void establecerApiKey(String ak){
-        apiKey = ak+123123;
+
+    public void establecerApiKey(String ak) {
+        apiKey = String.format("%s%s", ak, "123123");
     }
-    
-    public String obtenerApiKey(){
+
+    public String obtenerApiKey() {
         return apiKey;
     }
-    
+
 }
